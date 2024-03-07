@@ -17,7 +17,7 @@ public class Main {
             third += arr[i];
             count++;
         }
-        System.out.println(sum+" "+third/count);
+        System.out.printf("%d %.1f",sum,third/count);
 
     }
 }
